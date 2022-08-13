@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Red+Rose:wght@300;400;500;600;700&display=swap');
+
+* {
+  
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  /* border: 0.2px solid red; */
+  box-sizing: border-box;
+  
+}
+a { color: inherit; 
+  text-decoration: none;}
+  
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+
+body{
+
+  background:  rgba(0, 0, 0, .65) url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+  /* height: 100vh; */
+  background-blend-mode: darken;
+
+ background-size: cover;
+
+}
+
+
+.container{
+  margin:70px; 
+}
+.container .navbar{
+  display: flex;
+justify-content: space-between;
+}
+
+.navbar .list{
+display:flex;
+list-style: none;
+justify-content: space-between;
+margin: 25px;
+font-family: "Red Rose", cursive;
+color: #FFC234;
+}
+.list-item{
+  cursor: pointer;
+  font-size: larger;
+  display: flex;
+  margin-left: 100px;
+justify-content: space-between;
+}
+.list-item:hover{
+  color:#fff;
+  transition: 250ms;
+  font-weight: 600;
+
+}
+.button-small{
+  font-family: "Red Rose", cursive;
+  border-style: none;
+  background-color: #FF505F;
+  padding: 15px 50px;
+  margin-right: 40px;
+  margin-left: 0px;
+  color: #fff;
+  font-size: x-large;
+}
+.button-small:hover{
+  background-color: #fff;
+  color: #FF505F;
+  transition: 250ms;
+}
+
+
+.hero-heading{
+  font-size: 70px; 
+  text-align: center;
+  margin:50px;
+  /* padding-left: 200px; */
+  /* padding-right: 200px; */
+  font-family: 'Dela Gothic One', cursive;
+  color: #FFC234;
+  font-weight: 500;
+
+}
+
+.button-large{
+  background-color: #FF505F;
+  display: block;
+  margin:auto;
+  padding:30px 40px;
+  font-weight: 800;
+  font-size: larger;
+  color:white;
+  border-style: none;
+  font-family: "Red Rose", cursive;
+}
+
+.button-large:hover{
+  background-color: #fff;
+  color:#FF505F;
+  transition: 250ms;
+}
+
+.bottom img {
+  position: relative;
+  float: right;
+}
+
+/* time=1.5hrs */
